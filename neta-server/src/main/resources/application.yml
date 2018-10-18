@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://192.168.100.112:5432/cotizador
+    username: postgres
+    password: yizuz26l
+    driver-class-name: org.postgresql.Driver
+  jpa:
+   properties:
+    hibernate:
+     dialect: org.hibernate.dialect.PostgreSQL94Dialect  
+server:
+  port: 8091

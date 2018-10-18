@@ -1,0 +1,7 @@
+spring:
+  aplication:
+   name: CLIENTE.NS
+  cloud:
+   config:
+    url: hhtp//localost:8088
+    

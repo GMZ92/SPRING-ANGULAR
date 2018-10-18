@@ -1,0 +1,7 @@
+spring:
+ application:
+  name: NETA-MSSQL-APP
+  cloud:
+    config:
+      uri:
+       - http://localhost:80.88
